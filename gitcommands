@@ -24,5 +24,14 @@ git commit -m "making changes in the first brannch"
 git stash
 git stash apply (reattach feature)
 git merge firstbranch (Do this after checkingout to master)
+git rebase
+git fetch
+git pull = git fetch + git merge
+
+rebasing:
+clean branching history
+linear workflow
+ 
+
 
 
