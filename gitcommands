@@ -1,8 +1,28 @@
+
+git init
 git remote add origin "link"
 git pull origin master
 
 git status : tells which files are added to index and ready to commit
 git add : lets you add files to the index
+	git add edu1.txt
+
 git commit : it refers to recording snapshots  of the repository at a given time
 		committed snapshots will never change unless done explicitly
+
+git commit -m "frst file"
+git commit  -m "adding first commitin the local repo"
+
+git status
+git add -A
+git commit -a m "second commit"
+git log
+git branch firstbranch
+git checkout firstbranch (move from 1 branch to another)
+git add edu4.txt
+git commit -m "making changes in the first brannch"
+git stash
+git stash apply (reattach feature)
+git merge firstbranch (Do this after checkingout to master)
+
 
