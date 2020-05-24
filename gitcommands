@@ -1,0 +1,8 @@
+git remote add origin "link"
+git pull origin master
+
+git status : tells which files are added to index and ready to commit
+git add : lets you add files to the index
+git commit : it refers to recording snapshots  of the repository at a given time
+		committed snapshots will never change unless done explicitly
+
